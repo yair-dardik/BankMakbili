@@ -10,6 +10,8 @@
 
 class Bank {
 private:
+
+
     std::map<int, Account*> accounts;
     RWLock bankLock; 
     
@@ -23,12 +25,13 @@ private:
     RWLock atmLock; 
 
     pthread_t maintenanceThread;
-    bool bankIsRunning;
+    
 
     Bank(); 
     Account* getAccount(int id, int atmID);
 
 public:
+    bool bankIsRunning;
     static Bank& getInstance();
     void initWrappers(int numATMs);
     void runMaintenance();
@@ -36,14 +39,18 @@ public:
     // ATM Commands
     void createAccount(int id, int pass, int ils, int usd, int atmID);
     void closeAccount(int id, int pass, int atmID);
-    void deposit(int id, int pass, int amount, bool isDollar, int atmID);
-    void withdraw(int id, int pass, int amount,bool isDollar, int atmID);
+    void deposit(int id, int pass, int amount, bool isDollar, bool isInvest, int atmID);
+    void withdraw(int id, int pass, int amount,bool isDollar, bool isInvest, int atmID);
     void getBalance(int id, int pass, int atmID);
+    void exchange(int id, int pass, int amount,int isILStoDollar, int atmID);
     
     // Complex Commands (To be implemented below)
     void transfer(int srcID, int pass, int destID, int amount, bool isDollar, int atmID);
     void rollback(int steps, int atmID);
     
+    // Stock Market
+    void invest(int id, int pass, int amount, bool isDollar, int time, int atmID);
+
     // Shutdown Logic
     void closeAtm(int targetID, int closerID); 
     int isAtmClosing(int atmID);   
@@ -52,6 +59,8 @@ public:
     void takeSnapshot();
     void printStatus();
     void collectCommission();
+
+    
 };
 
 #endif

@@ -10,11 +10,10 @@ public:
     int balanceILS;
     int balanceUSD;
     
-    RWLock* lock; //TODO no pointer
+    RWLock* lock; 
 
     Account(int id, int password, int amountILS, int amountUSD);
     Account(const Account& other); // Copy constructor
-    //TODO : we will need a = as well
     ~Account();
 
     // Helper to check password without locking (caller must hold lock)

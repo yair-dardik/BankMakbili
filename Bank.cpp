@@ -4,6 +4,7 @@
 #include <unistd.h>
 #include <algorithm>
 #include <cstdio> // for printf
+#include <random>
 
 // Helper wrapper for the thread
 void* maintenance_wrapper(void* arg) {
@@ -18,7 +19,7 @@ void Bank::initWrappers(int numATMs) {
     atmLock.writeUnlock();
 }
 
-Bank::Bank() : bankIsRunning(true) {
+Bank::Bank() : bankIsRunning(true) { // -1 indicates uninitialized
     pthread_mutex_init(&historyLock, NULL);
     // Start the maintenance thread immediately
     pthread_create(&maintenanceThread, NULL, maintenance_wrapper, NULL);
@@ -45,32 +46,21 @@ Account* Bank::getAccount(int id, int atmID) {
 // ------------------------------------------------------------
 // MAINTENANCE LOOP
 // ------------------------------------------------------------
-void Bank::runMaintenance() {
+void Bank::runMaintenance() { //TODO need to change order of maintnance
     int counter = 0;
     while(bankIsRunning) {
         // Sleep for 10 milliseconds (10,000 microseconds)
         // This sets the base rhythm for Printing and Snapshots [cite: 240]
         usleep(10000); 
         
-        // --- Check Requests ---
-        atmLock.writeLock(); 
-        for (size_t i = 0; i < atmStatus.size(); ++i) {
-            // Check for NEGATIVE value (Request)
-            if (atmStatus[i] < 0) {
-                // Flip to POSITIVE (Execute Shutdown)
-                atmStatus[i] = std::abs(atmStatus[i]);
-                // The ATM will log it when it wakes up and sees the positive value.
-            }
-        }
-        atmLock.writeUnlock();
-        // ----------------------
+        
 
         // Lock Bank for Reading during snapshoot and printing
         bankLock.readLock();
         //lock all accounts
         for(auto const& item : accounts) {
-        Account* liveAcc = item.second;
-        liveAcc->lock->readLock();
+            Account* liveAcc = item.second;
+            liveAcc->lock->readLock();
         }
         // 1. Snapshot (Every 10ms)
         takeSnapshot();
@@ -85,12 +75,27 @@ void Bank::runMaintenance() {
         }
          bankLock.readUnlock();
 
-        // 3. Commission (Every 30ms)
+         // --- Check Closing Requests ---
+        atmLock.writeLock(); 
+        for (size_t i = 0; i < atmStatus.size(); ++i) {
+            // Check for NEGATIVE value (Request)
+            if (atmStatus[i] < 0) {
+                // Flip to POSITIVE (Execute Shutdown)
+                atmStatus[i] = std::abs(atmStatus[i]);
+                // The ATM will log it when it wakes up and sees the positive value.
+            }
+        }
+        atmLock.writeUnlock();
+        // ----------------------
+
+
+        // Commission (Every 30ms)
         // Since the loop runs every 10ms, we collect commission every 3rd loop.
         counter++;
         if (counter % 3 == 0) {
             collectCommission();
         }
+
     }
 }
 
@@ -100,27 +105,77 @@ void Bank::runMaintenance() {
 // ------------------------------------------------------------
 
 void Bank::takeSnapshot() {
-    // We need to verify what locking is needed.
-    // Ideally, we lock the Bank for READ to iterate the map.
-    // However, to get a consistent "Point in Time", we arguably should lock Bank for WRITE 
-    // to stop all transactions while copying. 
-    // Given "Maximize Parallelism", Read Lock is better, but accounts might change MID-COPY.
-    // For this exercise, locking Bank Read + Individual Account Read is the safe, parallel way.
-    
-    std::map<int, Account> currentSnap;
-    
-    
-    for(auto const& item : accounts) {
-        Account* liveAcc = item.second;
-        currentSnap.insert(std::make_pair(item.first, *liveAcc)); // Deep copy using Copy Constructor    
-        }
+// We need to verify what locking is needed.
+// Ideally, we lock the Bank for READ to iterate the map.
+// However, to get a consistent "Point in Time", we arguably should lock Bank for WRITE 
+// to stop all transactions while copying. 
+// Given "Maximize Parallelism", Read Lock is better, but accounts might change MID-COPY.
+// For this exercise, locking Bank Read + Individual Account Read is the safe, parallel way.
 
-    pthread_mutex_lock(&historyLock);
-    history.push_front(currentSnap);
-    if (history.size() > 100) { 
-        history.pop_back();
+std::map<int, Account> currentSnap;
+
+
+for(auto const& item : accounts) {
+    Account* liveAcc = item.second;
+    currentSnap.insert(std::make_pair(item.first, *liveAcc)); // Deep copy using Copy Constructor    
     }
-    pthread_mutex_unlock(&historyLock);
+
+pthread_mutex_lock(&historyLock);
+history.push_front(currentSnap);
+if (history.size() > 100) { 
+    history.pop_back();
+}
+pthread_mutex_unlock(&historyLock);
+}
+
+//print to screen not to log file
+void Bank::printStatus() {
+    printf("\033[2J");
+    printf("\033[1;1H");
+    bankLock.readLock();
+    printf("Current Bank Status\n");
+    for (auto const& item : accounts) {
+        Account* acc = item.second;
+        printf("Account %d: Balance - %d ILS %d USD, Account Password - %d\n",
+             acc->id, acc->balanceILS, acc->balanceUSD, acc->password);
+    }
+    bankLock.readUnlock();
+}
+
+void Bank::collectCommission() {
+    
+    // Pick a random percentage between 1 and 5
+    std::random_device rd;
+    std::mt19937 gen(rd());
+    std::uniform_int_distribution<> dis(1, 5);
+    int percentageInt = dis(gen);
+    double percentage = 1 - (percentageInt / 100.0);
+
+    bankLock.readLock();
+    for (auto const& item : accounts) {
+        Account* acc = item.second;
+        acc->lock->writeLock(); // Changing balance
+        
+
+        // Calculate Commissions
+        int newILS = acc->balanceILS * percentage;
+        newILS = std::max(0, newILS);
+        int newUSD = acc->balanceUSD * percentage;
+        newUSD = std::max(0, newUSD);
+
+        int commissionILS = acc->balanceILS - newILS;
+        int commissionUSD =  acc->balanceUSD - newUSD;
+
+        acc->balanceILS = newILS;
+        acc->balanceUSD = newUSD;
+
+        Log::getInstance().write("Bank: Commissions of " + std::to_string(percentageInt) + 
+            " were charged, bank gained " + std::to_string(commissionILS) + " ILS and " + 
+            std::to_string(commissionUSD) + " USD from account " + std::to_string(acc->id));
+
+        acc->lock->writeUnlock();
+    }
+    bankLock.readUnlock();
 }
 
 // ------------------------------------------------------------
@@ -182,7 +237,7 @@ void Bank::closeAccount(int id, int pass, int atmID) {
     bankLock.writeUnlock();
 }
 
-void Bank::withdraw(int id, int pass, int amount, bool isDollar, int atmID) {
+void Bank::withdraw(int id, int pass, int amount, bool isDollar, bool isInvest, int atmID) {
     // 1. Lock Bank (Read) - Find the account
     bankLock.readLock();
     
@@ -223,17 +278,18 @@ void Bank::withdraw(int id, int pass, int amount, bool isDollar, int atmID) {
     } else {
         acc->balanceILS -= amount;
     }
-        
-    Log::getInstance().write(std::to_string(atmID) + ": Account " + std::to_string(id) + 
+    if(!isInvest){
+        // Log only if not an investment withdrawal
+        Log::getInstance().write(std::to_string(atmID) + ": Account " + std::to_string(id) + 
         " new balance is " + std::to_string(acc->balanceILS) + " ILS and " + 
         std::to_string(acc->balanceUSD) + " USD after " + std::to_string(amount) + (isDollar ? " USD" : " ILS") + " was withdrawn");
-        
+    }    
     acc->lock->writeUnlock();
     bankLock.readUnlock();
 }
 
 
-void Bank::deposit(int id, int pass, int amount, bool isDollar, int atmID) {
+void Bank::deposit(int id, int pass, int amount, bool isDollar, bool isInvest, int atmID) {
     // 1. Lock Bank (Read) - Find the account
     bankLock.readLock();
     
@@ -263,10 +319,14 @@ void Bank::deposit(int id, int pass, int amount, bool isDollar, int atmID) {
         acc->balanceILS += amount;
     }
     
-    Log::getInstance().write(std::to_string(atmID) + ": Account " + std::to_string(id) + 
+    
+    if(!isInvest){
+        // Log only if not an investment deposit
+       Log::getInstance().write(std::to_string(atmID) + ": Account " + std::to_string(id) + 
         " new balance is " + std::to_string(acc->balanceILS) + " ILS and " + 
         std::to_string(acc->balanceUSD) + " USD after " + std::to_string(amount) + currType + " was deposited");
-        
+    }
+
     acc->lock->writeUnlock();
     bankLock.readUnlock();
 }
@@ -298,6 +358,70 @@ void Bank::getBalance(int id, int pass, int atmID) {
         
     acc->lock->readUnlock();
     bankLock.readUnlock();
+}
+
+
+void Bank::exchange(int id, int pass, int amount,int isILStoDollar, int atmID){
+    
+    // 1 Dollar is 5 ILS
+    const int exchangeRate = 5;
+    bankLock.readLock();
+    
+    Account* acc = getAccount(id, atmID); 
+    if (acc == NULL) { 
+        bankLock.readUnlock();
+        return; 
+    }
+    
+    // 2. Lock Account (Write) - Changing balance
+    acc->lock->writeLock();
+    
+    if (!acc->checkPassword(pass)) {
+         Log::getInstance().write("Error " + std::to_string(atmID) + 
+            ": Your transaction failed - password for account id " + std::to_string(id) + " is incorrect");
+         acc->lock->writeUnlock();
+         bankLock.readUnlock();
+         return;
+    }
+
+    if(isILStoDollar){
+        // Check if enough ILS
+        if(acc->balanceILS < amount){
+            Log::getInstance().write("Error " + std::to_string(atmID) + 
+            ": Your transaction failed - account id " + std::to_string(id) + " balance is " + std::to_string(acc->balanceILS) + " ILS and " + 
+        std::to_string(acc->balanceUSD) + " USD is lower than " + std::to_string(amount) + " ILS");
+            acc->lock->writeUnlock();
+            bankLock.readUnlock();
+            return;
+        }
+        // Execute Exchange
+        acc->balanceILS -= amount;
+        acc->balanceUSD += amount / exchangeRate; // TODO think about rounding
+
+        Log::getInstance().write(std::to_string(atmID) + ": Account " + std::to_string(id) + 
+        " new balance is " + std::to_string(acc->balanceILS) + " ILS and " + 
+        std::to_string(acc->balanceUSD) + " USD after " + std::to_string(amount) + " ILS was exchanged");
+    }
+    else{
+        // Check if enough USD
+        if(acc->balanceUSD < amount){
+            Log::getInstance().write("Error " + std::to_string(atmID) + 
+            ": Your transaction failed - account id " + std::to_string(id) + " balance is " + std::to_string(acc->balanceILS) + " ILS and " + 
+        std::to_string(acc->balanceUSD) + " USD is lower than " + std::to_string(amount) + " USD");
+            acc->lock->writeUnlock();
+            bankLock.readUnlock();
+            return;
+        }
+        // Execute Exchange
+        acc->balanceUSD -= amount;
+        acc->balanceILS += amount * exchangeRate;
+
+        Log::getInstance().write(std::to_string(atmID) + ": Account " + std::to_string(id) + 
+        " new balance is " + std::to_string(acc->balanceILS) + " ILS and " + 
+        std::to_string(acc->balanceUSD) + " USD after " + std::to_string(amount) + " USD was exchanged");
+    }
+
+
 }
 
 // ------------------------------------------------------------
@@ -383,6 +507,13 @@ void Bank::rollback(int steps, int atmID) {
             Account* restoredAcc = new Account(pair.second);
             accounts.insert(std::make_pair(pair.first, restoredAcc));
         }
+
+        // delete newer history entries
+        for(int i = 0; i < steps; i++) {
+            history.pop_front();
+        }
+
+
         Log::getInstance().write(std::to_string(atmID) + ": Rollback to " + std::to_string(steps) + " bank iterations ago was completed successfully");
     }
     else {
@@ -392,6 +523,47 @@ void Bank::rollback(int steps, int atmID) {
     pthread_mutex_unlock(&historyLock);
     bankLock.writeUnlock();
 }
+
+// ------------------------------------------------------------
+// STOCK MARKET
+// ------------------------------------------------------------
+
+void * investment_wrapper(void* arg) {
+    // Cast the void pointer back to a tuple pointer
+    // We strictly use the pointer to avoid copying the tuple
+    std::tuple<int, int, int, bool, int, int>* args = 
+        (std::tuple<int, int, int, bool, int, int>*)arg;
+
+    int id = std::get<0>(*args);
+    int pass = std::get<1>(*args);
+    int amount = std::get<2>(*args);
+    bool isDollar = std::get<3>(*args);
+    int time = std::get<4>(*args);
+    int atmID = std::get<5>(*args);
+
+    //Clean up the heap memory immediately
+    delete args;
+
+    Bank& bank = Bank::getInstance();
+    bank.withdraw(id, pass, amount, isDollar, true, atmID); //is Invest = true
+    usleep(time * 1000); //time is in milliseconds
+    int returned_amount = amount * pow(1.03, (time / 10)); //3% interest per 10 milliseconds
+    bank.deposit(id, pass, returned_amount, isDollar, true, atmID); //is Invest = true
+    return NULL;
+}
+
+void Bank::invest(int id, int pass, int amount, bool isDollar, int time, int atmID){
+    pthread_t investmentThread;
+    auto* args = new std::tuple<int, int, int, bool, int, int>(id, 
+                                                        pass, amount, isDollar, time, atmID);
+    pthread_create(&investmentThread, NULL, investment_wrapper, (void*)args);
+    
+    // This tells the OS: "I won't call join(), please clean up this thread when it's done."
+    pthread_detach(investmentThread);
+    
+}
+
+
 
 
 // ------------------------------------------------------------
@@ -403,6 +575,12 @@ void Bank::closeAtm(int targetID, int closerID){
     if(targetID < 1 || targetID > static_cast<int>(atmStatus.size())){
         Log::getInstance().write("Error " + std::to_string(closerID) + 
             ": Your transaction failed - ATM id " + std::to_string(targetID) + " does not exist");
+        atmLock.writeUnlock();
+        return;
+    }
+    if(atmStatus[targetID - 1] != 0 ){
+        Log::getInstance().write("Error " + std::to_string(closerID) + 
+            ": Your close operation failed - ATM id " + std::to_string(targetID) + " is already in a closed state");
         atmLock.writeUnlock();
         return;
     }
@@ -430,3 +608,4 @@ int Bank::isAtmClosing(int atmID){
         return isClosing;
     } 
 } 
+
