@@ -1,6 +1,6 @@
 #include "ATM.h"
 #include "Bank.h"
-#include "Log.h"
+#include "log.h"
 #include <fstream>
 #include <sstream>
 #include <iostream>
