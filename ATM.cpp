@@ -90,8 +90,7 @@ void ATM::parseAndExecute(int atmID, const std::string& line) {
             usleep(time * 1000); // time is in milliseconds
             break;
         default:
-            printf(("ATM " + std::to_string(atmID) + ": Unknown command '" + cmd + "'\n").c_str());
-            break;
+        std::cout << "ATM " << atmID << ": Unknown command '" << cmd << "'" << std::endl;            break;
     }
 }
 
