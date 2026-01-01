@@ -1,5 +1,5 @@
 #include "Bank.h"
-#include "Log.h"
+#include "log.h"
 #include <iostream>
 #include <unistd.h>
 #include <algorithm>
