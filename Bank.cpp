@@ -457,12 +457,13 @@ void Bank::transfer(int srcID, int pass, int destID, int amount, bool isDollar, 
 
     // 3. Logic Checks
     bool success = true;
+    bool hasEnough = isDollar ? (src->balanceUSD >= amount) : (src->balanceILS >= amount);
     if (!src->checkPassword(pass)) {
         Log::getInstance().write("Error " + std::to_string(atmID) + 
             ": Your transaction failed - password for account id " + std::to_string(srcID) + " is incorrect");
         success = false;
     } 
-    else if (src->balanceILS < amount) { // Assuming ILS for simplicity, adapt for USD
+    else if (!hasEnough) { // Assuming ILS for simplicity, adapt for USD
         Log::getInstance().write("Error " + std::to_string(atmID) + 
             ": Your transaction failed - account id " + std::to_string(srcID) + " balance is lower than " + std::to_string(amount) + (isDollar ? " USD" : " ILS"));
         success = false;
@@ -470,10 +471,16 @@ void Bank::transfer(int srcID, int pass, int destID, int amount, bool isDollar, 
 
     // 4. Execute
     if (success) {
-        src->balanceILS -= amount;
-        dest->balanceILS += amount;
-        
-        Log::getInstance().write(std::to_string(atmID) + ": Transfer " + std::to_string(amount) + " ILS from account " + 
+        std::string currencyType = isDollar ? " USD" : " ILS";
+
+        if (isDollar) {
+            src->balanceUSD -= amount;
+            dest->balanceUSD += amount;
+        } else {
+            src->balanceILS -= amount;
+            dest->balanceILS += amount;
+        }
+        Log::getInstance().write(std::to_string(atmID) + ": Transfer " + std::to_string(amount) + currencyType + " from account " + 
             std::to_string(srcID) + " to account " + std::to_string(destID) + " new account balance is " + 
             std::to_string(src->balanceILS) + " ILS and " + std::to_string(src->balanceUSD) + " USD new target account balance is " + 
             std::to_string(dest->balanceILS) + " ILS and " + std::to_string(dest->balanceUSD) + " USD");
