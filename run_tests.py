@@ -9,7 +9,12 @@ import os
 import sys
 import time
 import re
-from typing import List, Tuple, Dict, Optional
+# The typing module is standard in Python 3.5+. 
+# If you are on an even older version, remove these imports and the type hints.
+try:
+    from typing import List, Tuple, Dict, Optional
+except ImportError:
+    pass
 
 # Configuration
 BANK_EXECUTABLE = "./bank"
@@ -17,7 +22,7 @@ LOG_FILE = "log.txt"
 TIMEOUT = 60  # seconds
 
 class TestResult:
-    def __init__(self, name: str):
+    def __init__(self, name):
         self.name = name
         self.passed = False
         self.error_message = ""
@@ -25,14 +30,16 @@ class TestResult:
         self.stdout = ""
         self.stderr = ""
 
-def run_bank(num_vip_threads: int, input_files: List[str], timeout: int = TIMEOUT) -> Tuple[int, str, str]:
+def run_bank(num_vip_threads, input_files, timeout=TIMEOUT):
     """Run the bank executable with given parameters."""
     cmd = [BANK_EXECUTABLE, str(num_vip_threads)] + input_files
     try:
+        # cwd ensures we run from the script's directory so it finds the tests folder
         result = subprocess.run(
             cmd,
-            capture_output=True,
-            text=True,
+            stdout=subprocess.PIPE,
+            stderr=subprocess.PIPE,
+            universal_newlines=True, # Replaces text=True for older python
             timeout=timeout,
             cwd=os.path.dirname(os.path.abspath(__file__)) or "."
         )
@@ -42,7 +49,7 @@ def run_bank(num_vip_threads: int, input_files: List[str], timeout: int = TIMEOU
     except Exception as e:
         return -1, "", str(e)
 
-def read_log_file() -> str:
+def read_log_file():
     """Read the log file content."""
     try:
         with open(LOG_FILE, 'r') as f:
@@ -57,39 +64,39 @@ def clean_log_file():
     except FileNotFoundError:
         pass
 
-def check_log_contains(log: str, expected: List[str]) -> Tuple[bool, str]:
+def check_log_contains(log, expected):
     """Check if log contains all expected strings."""
     missing = []
     for exp in expected:
         if exp not in log:
             missing.append(exp)
     if missing:
-        return False, f"Missing in log: {missing}"
+        return False, "Missing in log: {}".format(missing)
     return True, ""
 
-def check_log_contains_pattern(log: str, patterns: List[str]) -> Tuple[bool, str]:
+def check_log_contains_pattern(log, patterns):
     """Check if log contains all expected regex patterns."""
     missing = []
     for pattern in patterns:
         if not re.search(pattern, log):
             missing.append(pattern)
     if missing:
-        return False, f"Missing patterns in log: {missing}"
+        return False, "Missing patterns in log: {}".format(missing)
     return True, ""
 
-def check_no_negative_balance(log: str) -> Tuple[bool, str]:
+def check_no_negative_balance(log):
     """Check that no negative balances appear in log."""
     # Pattern to find balance reports
     balance_pattern = r'balance is (-?\d+) ILS and (-?\d+) USD'
     matches = re.findall(balance_pattern, log)
     for ils, usd in matches:
         if int(ils) < 0 or int(usd) < 0:
-            return False, f"Negative balance found: {ils} ILS, {usd} USD"
+            return False, "Negative balance found: {} ILS, {} USD".format(ils, usd)
     return True, ""
 
 # ============== TEST CASES ==============
 
-def test_basic_operations() -> TestResult:
+def test_basic_operations():
     """Test basic account operations: open, deposit, withdraw, balance."""
     result = TestResult("Basic Operations")
     clean_log_file()
@@ -99,7 +106,7 @@ def test_basic_operations() -> TestResult:
     result.stderr = stderr
     
     if retcode != 0 and "TIMEOUT" not in stderr:
-        result.error_message = f"Bank exited with code {retcode}: {stderr}"
+        result.error_message = "Bank exited with code {}: {}".format(retcode, stderr)
         return result
     
     log = read_log_file()
@@ -129,7 +136,7 @@ def test_basic_operations() -> TestResult:
     result.passed = True
     return result
 
-def test_error_handling() -> TestResult:
+def test_error_handling():
     """Test error handling: wrong password, non-existent account."""
     result = TestResult("Error Handling")
     clean_log_file()
@@ -159,7 +166,7 @@ def test_error_handling() -> TestResult:
     result.passed = True
     return result
 
-def test_transfers() -> TestResult:
+def test_transfers():
     """Test money transfers between accounts."""
     result = TestResult("Transfers")
     clean_log_file()
@@ -190,7 +197,7 @@ def test_transfers() -> TestResult:
     result.passed = True
     return result
 
-def test_currency_exchange() -> TestResult:
+def test_currency_exchange():
     """Test currency exchange operations."""
     result = TestResult("Currency Exchange")
     clean_log_file()
@@ -219,7 +226,7 @@ def test_currency_exchange() -> TestResult:
     result.passed = True
     return result
 
-def test_close_account() -> TestResult:
+def test_close_account():
     """Test closing accounts."""
     result = TestResult("Close Account")
     clean_log_file()
@@ -249,7 +256,7 @@ def test_close_account() -> TestResult:
     result.passed = True
     return result
 
-def test_insufficient_funds() -> TestResult:
+def test_insufficient_funds():
     """Test insufficient funds errors."""
     result = TestResult("Insufficient Funds")
     clean_log_file()
@@ -282,7 +289,7 @@ def test_insufficient_funds() -> TestResult:
     result.passed = True
     return result
 
-def test_concurrent_atms() -> TestResult:
+def test_concurrent_atms():
     """Test concurrent ATM operations."""
     result = TestResult("Concurrent ATMs")
     clean_log_file()
@@ -315,7 +322,7 @@ def test_concurrent_atms() -> TestResult:
     result.passed = True
     return result
 
-def test_multi_atm_transfers() -> TestResult:
+def test_multi_atm_transfers():
     """Test transfers between accounts created by different ATMs."""
     result = TestResult("Multi-ATM Transfers")
     clean_log_file()
@@ -346,7 +353,7 @@ def test_multi_atm_transfers() -> TestResult:
     result.passed = True
     return result
 
-def test_persistent_commands() -> TestResult:
+def test_persistent_commands():
     """Test persistent command modifier."""
     result = TestResult("Persistent Commands")
     clean_log_file()
@@ -372,7 +379,7 @@ def test_persistent_commands() -> TestResult:
     result.passed = True
     return result
 
-def test_vip_commands() -> TestResult:
+def test_vip_commands():
     """Test VIP command handling."""
     result = TestResult("VIP Commands")
     clean_log_file()
@@ -398,7 +405,7 @@ def test_vip_commands() -> TestResult:
     result.passed = True
     return result
 
-def test_investment() -> TestResult:
+def test_investment():
     """Test investment operations."""
     result = TestResult("Investment")
     clean_log_file()
@@ -423,7 +430,7 @@ def test_investment() -> TestResult:
     result.passed = True
     return result
 
-def test_commission_charging() -> TestResult:
+def test_commission_charging():
     """Test that commissions are charged."""
     result = TestResult("Commission Charging")
     clean_log_file()
@@ -448,7 +455,7 @@ def test_commission_charging() -> TestResult:
     result.passed = True
     return result
 
-def test_illegal_arguments() -> TestResult:
+def test_illegal_arguments():
     """Test error handling for illegal arguments."""
     result = TestResult("Illegal Arguments")
     
@@ -468,7 +475,7 @@ def test_illegal_arguments() -> TestResult:
     
     return result
 
-def test_status_printing() -> TestResult:
+def test_status_printing():
     """Test that bank status is printed to stdout."""
     result = TestResult("Status Printing")
     clean_log_file()
@@ -485,7 +492,7 @@ def test_status_printing() -> TestResult:
     
     return result
 
-def test_close_atm() -> TestResult:
+def test_close_atm():
     """Test closing ATM functionality."""
     result = TestResult("Close ATM")
     clean_log_file()
@@ -511,7 +518,7 @@ def test_close_atm() -> TestResult:
     result.passed = True
     return result
 
-def test_stress_multi_atm() -> TestResult:
+def test_stress_multi_atm():
     """Stress test with 4 ATMs doing concurrent operations."""
     result = TestResult("Stress Multi-ATM")
     clean_log_file()
@@ -553,7 +560,7 @@ def test_stress_multi_atm() -> TestResult:
     result.passed = True
     return result
 
-def run_all_tests() -> List[TestResult]:
+def run_all_tests():
     """Run all tests and return results."""
     tests = [
         test_basic_operations,
@@ -576,43 +583,43 @@ def run_all_tests() -> List[TestResult]:
     
     results = []
     for test_func in tests:
-        print(f"Running: {test_func.__name__}...", end=" ", flush=True)
+        print("Running: {}...".format(test_func.__name__), end=" ", flush=True)
         try:
             result = test_func()
             results.append(result)
             if result.passed:
                 print("PASSED")
             else:
-                print(f"FAILED: {result.error_message}")
+                print("FAILED: {}".format(result.error_message))
         except Exception as e:
             result = TestResult(test_func.__name__)
             result.error_message = str(e)
             results.append(result)
-            print(f"ERROR: {e}")
+            print("ERROR: {}".format(e))
     
     return results
 
-def print_summary(results: List[TestResult]):
+def print_summary(results):
     """Print test summary."""
     passed = sum(1 for r in results if r.passed)
     total = len(results)
     
     print("\n" + "=" * 60)
-    print(f"TEST SUMMARY: {passed}/{total} tests passed")
+    print("TEST SUMMARY: {}/{} tests passed".format(passed, total))
     print("=" * 60)
     
     if passed < total:
         print("\nFailed tests:")
         for r in results:
             if not r.passed:
-                print(f"  - {r.name}: {r.error_message}")
+                print("  - {}: {}".format(r.name, r.error_message))
                 if r.log_content:
-                    print(f"    Log preview: {r.log_content[:200]}...")
+                    print("    Log preview: {}...".format(r.log_content[:200]))
 
 def main():
     # Check if bank executable exists
     if not os.path.exists(BANK_EXECUTABLE):
-        print(f"Error: {BANK_EXECUTABLE} not found. Run 'make' first.")
+        print("Error: {} not found. Run 'make' first.".format(BANK_EXECUTABLE))
         sys.exit(1)
     
     # Check if tests directory exists
