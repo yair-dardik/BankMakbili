@@ -170,7 +170,7 @@ void Bank::collectCommission() {
         acc->balanceUSD = newUSD;
 
         Log::getInstance().write("Bank: Commissions of " + std::to_string(percentageInt) + 
-            " were charged, bank gained " + std::to_string(commissionILS) + " ILS and " + 
+            " % were charged, bank gained " + std::to_string(commissionILS) + " ILS and " +
             std::to_string(commissionUSD) + " USD from account " + std::to_string(acc->id));
 
         acc->lock->writeUnlock();
@@ -232,7 +232,7 @@ void Bank::closeAccount(int id, int pass, int atmID) {
     acc->lock->writeUnlock(); // Unlock before deletion
     delete acc;
 
-    Log::getInstance().write(std::to_string(atmID) + ": Account id " + std::to_string(id) + " is now closed. Balance was " + 
+    Log::getInstance().write(std::to_string(atmID) + ": Account " + std::to_string(id) + " is now closed. Balance was " +
         std::to_string(acc->balanceILS) + " ILS and " + std::to_string(acc->balanceUSD) + " USD");
 
     bankLock.writeUnlock();
