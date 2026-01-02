@@ -69,8 +69,8 @@ void Bank::runMaintenance() { //TODO need to change order of maintnance
         printStatus();
 
         //unlock the accounts
-        for(auto const& item : accounts) {
-            Account* liveAcc = item.second;
+        for (auto it = accounts.rbegin(); it != accounts.rend(); ++it) {
+            Account* liveAcc = it->second;
             liveAcc->lock->readUnlock();
         }
          bankLock.readUnlock();
@@ -232,7 +232,8 @@ void Bank::closeAccount(int id, int pass, int atmID) {
     acc->lock->writeUnlock(); // Unlock before deletion
     delete acc;
 
-    Log::getInstance().write(std::to_string(atmID) + ": Account id " + std::to_string(id) + " is closed");
+    Log::getInstance().write(std::to_string(atmID) + ": Account id " + std::to_string(id) + " is now closed. Balance was " + 
+        std::to_string(acc->balanceILS) + " ILS and " + std::to_string(acc->balanceUSD) + " USD");
 
     bankLock.writeUnlock();
 }
@@ -614,5 +615,5 @@ int Bank::isAtmClosing(int atmID){
         Log::getInstance().write("NEED FIXING BUG, checked ATM array with illigal ATM ID: " + std::to_string(atmID));
         return isClosing;
     } 
-} 
+}
 
