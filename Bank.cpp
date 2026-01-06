@@ -559,20 +559,28 @@ void Bank::rollback(int steps, int atmID) {
 // STOCK MARKET
 // ------------------------------------------------------------
 
+struct InvestmentArgs {
+    int id;
+    int pass;
+    int amount;
+    bool isDollar;
+    int time;
+    int atmID;
+};
+
 void * investment_wrapper(void* arg) {
-    // Cast the void pointer back to a tuple pointer
-    // We strictly use the pointer to avoid copying the tuple
-    std::tuple<int, int, int, bool, int, int>* args = 
-        (std::tuple<int, int, int, bool, int, int>*)arg;
+    InvestmentArgs* args = (InvestmentArgs*)arg;
 
-    int id = std::get<0>(*args);
-    int pass = std::get<1>(*args);
-    int amount = std::get<2>(*args);
-    bool isDollar = std::get<3>(*args);
-    int time = std::get<4>(*args);
-    int atmID = std::get<5>(*args);
+    // Extract values (Thread-safe read)
+    int id = args->id;
+    int pass = args->pass;
+    int amount = args->amount;
+    bool isDollar = args->isDollar;
+    int time = args->time;
+    int atmID = args->atmID;
 
-    //Clean up the heap memory immediately
+    // Delete the struct
+    printf("DEBUG: Wrapper T%lu DELETING ptr %p\n", pthread_self(), (void*)args);
     delete args;
 
     Bank& bank = Bank::getInstance();
@@ -585,12 +593,21 @@ void * investment_wrapper(void* arg) {
 
 void Bank::invest(int id, int pass, int amount, bool isDollar, int time, int atmID){
     pthread_t investmentThread;
-    auto* args = new std::tuple<int, int, int, bool, int, int>(id, 
-                                                        pass, amount, isDollar, time, atmID);
+    // Create struct on heap
+    InvestmentArgs* args = new InvestmentArgs();
+    args->id = id;
+    args->pass = pass;
+    args->amount = amount;
+    args->isDollar = isDollar;
+    args->time = time;
+    args->atmID = atmID;
+
+    printf("DEBUG: Invest  T%lu CREATED ptr %p\n", pthread_self(), (void*)args);
     pthread_create(&investmentThread, NULL, investment_wrapper, (void*)args);
     
     // This tells the OS: "I won't call join(), please clean up this thread when it's done."
     pthread_detach(investmentThread);
+    printf("DEBUG: Invest  T%lu RETURNING (No Delete)\n", pthread_self());
     
 }
 
