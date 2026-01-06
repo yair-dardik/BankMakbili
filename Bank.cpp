@@ -244,6 +244,8 @@ void Bank::closeAccount(int id, int pass, int atmID) {
         return;
     }
 
+    int ILS = acc->balanceILS;
+    int USD = acc->balanceUSD;
 
     // 3. Remove and Delete
     accounts.erase(id);
@@ -251,7 +253,7 @@ void Bank::closeAccount(int id, int pass, int atmID) {
     delete acc;
 
     Log::getInstance().write(std::to_string(atmID) + ": Account " + std::to_string(id) + " is now closed. Balance was " +
-        std::to_string(acc->balanceILS) + " ILS and " + std::to_string(acc->balanceUSD) + " USD");
+        std::to_string(ILS) + " ILS and " + std::to_string(USD) + " USD");
 
     bankLock.writeUnlock();
 }
