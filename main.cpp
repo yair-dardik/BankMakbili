@@ -4,6 +4,7 @@
 #include <cstdlib>
 #include "Bank.h"
 #include "VIPManager.h"
+#include "log.h"
 #include "ATM.h"
 
 // The routine that VIP threads will run
@@ -37,7 +38,10 @@ int main(int argc, char* argv[]) {
     
     // Initialize the Bank's internal ATM tracking structures before launching threads 
     Bank::getInstance().initWrappers(numATMs);
-
+    // Create these objects now, sequentially, so their mutexes 
+    // are fully built before any thread tries to use them.
+    VIPManager::getInstance(); 
+    Log::getInstance();
     // 4. Create VIP Threads
     // These start running immediately but will wait (sleep) 
     // inside getVIPCommand() until tasks are added.
