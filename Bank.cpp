@@ -150,14 +150,12 @@ pthread_mutex_unlock(&historyLock);
 void Bank::printStatus() {
     printf("\033[2J");
     printf("\033[1;1H");
-    bankLock.readLock();
     printf("Current Bank Status\n");
     for (auto const& item : accounts) {
         Account* acc = item.second;
         printf("Account %d: Balance - %d ILS %d USD, Account Password - %d\n",
              acc->id, acc->balanceILS, acc->balanceUSD, acc->password);
     }
-    bankLock.readUnlock();
 }
 
 void Bank::collectCommission() {
