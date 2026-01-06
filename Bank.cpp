@@ -420,7 +420,10 @@ void Bank::exchange(int id, int pass, int amount,int isILStoDollar, int atmID){
         Log::getInstance().write(std::to_string(atmID) + ": Account " + std::to_string(id) + 
         " new balance is " + std::to_string(acc->balanceILS) + " ILS and " + 
         std::to_string(acc->balanceUSD) + " USD after " + std::to_string(amount) + " USD was exchanged");
+
     }
+    acc->lock->writeUnlock();
+    bankLock.readUnlock();
 
 
 }

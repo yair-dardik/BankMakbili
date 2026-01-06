@@ -2,8 +2,8 @@ import os
 import random
 
 # Configuration
-NUM_ATMS = 50           # ATMs NUM 
-NUM_ACCOUNTS = 4        # Accounts num
+NUM_ATMS = 1000           # ATMs NUM 
+NUM_ACCOUNTS = 4      # Accounts num
 OPERATIONS_PER_FILE = 20 # Number of operations per ATM
 INIT_BALANCE = 1000
 PASSWORD = 1
