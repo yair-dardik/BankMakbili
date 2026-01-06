@@ -1,0 +1,1 @@
+log_order|after 99 ILS was deposited|after 11 ILS was deposited|VIP=90 executed before VIP=10 (by log order)

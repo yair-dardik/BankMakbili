@@ -1,0 +1,1 @@
+log|Bank: commissions of|commissions logged at least once

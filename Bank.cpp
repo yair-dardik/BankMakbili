@@ -169,7 +169,7 @@ void Bank::collectCommission() {
         acc->balanceILS = newILS;
         acc->balanceUSD = newUSD;
 
-        Log::getInstance().write("Bank: Commissions of " + std::to_string(percentageInt) + 
+        Log::getInstance().write("Bank: commissions of " + std::to_string(percentageInt) +
             " % were charged, bank gained " + std::to_string(commissionILS) + " ILS and " +
             std::to_string(commissionUSD) + " USD from account " + std::to_string(acc->id));
 

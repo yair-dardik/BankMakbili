@@ -1,0 +1,1 @@
+log_absent|after 777 ILS was deposited|ATM2 should not execute deposit after being closed

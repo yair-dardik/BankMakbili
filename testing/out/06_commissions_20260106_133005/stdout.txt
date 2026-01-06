@@ -1,0 +1,1192 @@
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 1000 ILS 100 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 1000 ILS 100 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 1000 ILS 100 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 980 ILS 98 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 980 ILS 98 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 980 ILS 98 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 950 ILS 95 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 950 ILS 95 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 950 ILS 95 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 931 ILS 93 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 931 ILS 93 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 931 ILS 93 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 884 ILS 88 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 884 ILS 88 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 884 ILS 88 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 857 ILS 85 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 857 ILS 85 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 857 ILS 85 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 822 ILS 81 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 822 ILS 81 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 822 ILS 81 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 797 ILS 78 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 797 ILS 78 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 797 ILS 78 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 757 ILS 74 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 757 ILS 74 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 757 ILS 74 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 749 ILS 73 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 749 ILS 73 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 749 ILS 73 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 734 ILS 71 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 734 ILS 71 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 734 ILS 71 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 726 ILS 70 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 726 ILS 70 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 726 ILS 70 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 711 ILS 68 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 711 ILS 68 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 711 ILS 68 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 675 ILS 64 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 675 ILS 64 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 675 ILS 64 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 661 ILS 62 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 661 ILS 62 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 661 ILS 62 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 647 ILS 60 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 647 ILS 60 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 647 ILS 60 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 640 ILS 59 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 640 ILS 59 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 640 ILS 59 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 608 ILS 56 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 608 ILS 56 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 608 ILS 56 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 601 ILS 55 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 601 ILS 55 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 601 ILS 55 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 594 ILS 54 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 594 ILS 54 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 594 ILS 54 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 570 ILS 51 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 570 ILS 51 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 570 ILS 51 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 547 ILS 48 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 547 ILS 48 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 547 ILS 48 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 525 ILS 46 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 525 ILS 46 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 525 ILS 46 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 514 ILS 45 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 514 ILS 45 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 514 ILS 45 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 508 ILS 44 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 508 ILS 44 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 508 ILS 44 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 492 ILS 42 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 492 ILS 42 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 492 ILS 42 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 467 ILS 39 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 467 ILS 39 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 467 ILS 39 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 443 ILS 37 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 443 ILS 37 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 443 ILS 37 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 425 ILS 35 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 425 ILS 35 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 425 ILS 35 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 408 ILS 33 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 408 ILS 33 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 408 ILS 33 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 391 ILS 31 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 391 ILS 31 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 391 ILS 31 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 375 ILS 29 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 375 ILS 29 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 375 ILS 29 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 371 ILS 28 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 371 ILS 28 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 371 ILS 28 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 359 ILS 27 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 359 ILS 27 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 359 ILS 27 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 348 ILS 26 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 348 ILS 26 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 348 ILS 26 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 334 ILS 24 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 334 ILS 24 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 334 ILS 24 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 323 ILS 23 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 323 ILS 23 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 323 ILS 23 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 313 ILS 22 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 313 ILS 22 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 313 ILS 22 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 300 ILS 21 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 300 ILS 21 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 300 ILS 21 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 291 ILS 20 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 291 ILS 20 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 291 ILS 20 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 282 ILS 19 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 282 ILS 19 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 282 ILS 19 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 267 ILS 18 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 267 ILS 18 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 267 ILS 18 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 264 ILS 17 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 264 ILS 17 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 264 ILS 17 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 256 ILS 16 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 256 ILS 16 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 256 ILS 16 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 253 ILS 15 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 253 ILS 15 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 253 ILS 15 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 242 ILS 14 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 242 ILS 14 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 242 ILS 14 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 237 ILS 13 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 237 ILS 13 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 237 ILS 13 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 232 ILS 12 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 232 ILS 12 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 232 ILS 12 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 225 ILS 11 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 225 ILS 11 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 225 ILS 11 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 218 ILS 10 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 218 ILS 10 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 218 ILS 10 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 211 ILS 9 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 211 ILS 9 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 211 ILS 9 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 208 ILS 8 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 208 ILS 8 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 208 ILS 8 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 205 ILS 7 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 205 ILS 7 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 205 ILS 7 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 196 ILS 6 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 196 ILS 6 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 196 ILS 6 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 192 ILS 5 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 192 ILS 5 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 192 ILS 5 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 190 ILS 4 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 190 ILS 4 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 190 ILS 4 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 180 ILS 3 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 180 ILS 3 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 180 ILS 3 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 178 ILS 2 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 178 ILS 2 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 178 ILS 2 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 169 ILS 1 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 169 ILS 1 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 169 ILS 1 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 165 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 165 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 165 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 156 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 156 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 156 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 149 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 149 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 149 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 144 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 144 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 144 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 142 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 142 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 142 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 140 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 140 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 140 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 135 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 135 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 135 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 128 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 128 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 128 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 122 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 122 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 122 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 117 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 117 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 117 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 115 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 115 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 115 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 111 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 111 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 111 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 108 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 108 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 108 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 106 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 106 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 106 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 101 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 101 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 101 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 99 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 99 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 99 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 97 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 97 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 97 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 95 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 95 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 95 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 94 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 94 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 94 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 91 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 91 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 91 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 89 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 89 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 89 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 86 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 86 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 86 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 85 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 85 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 85 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 82 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 82 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 82 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 80 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 80 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 80 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 78 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 78 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 78 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 76 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 76 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 76 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 75 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 75 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 75 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 71 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 71 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 71 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 68 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 68 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 68 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 65 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 65 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 65 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 63 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 63 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 63 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 62 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 62 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 62 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 59 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 59 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 59 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 58 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 58 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 58 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 56 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 56 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 56 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 54 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 54 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 54 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 53 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 53 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 53 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 51 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 51 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 51 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 49 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 49 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 49 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 48 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 48 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 48 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 45 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 45 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 45 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 43 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 43 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 43 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 41 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 41 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 41 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 38 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 38 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 38 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 36 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 36 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 36 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 34 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 34 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 34 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 32 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 32 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 32 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 30 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 30 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 30 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 29 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 29 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 29 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 27 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 27 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 27 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 25 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 25 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 25 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 23 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 23 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 23 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 22 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 22 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 22 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 21 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 21 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 21 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 20 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 20 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 20 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 19 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 19 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 19 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 18 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 18 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 18 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 17 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 17 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 17 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 16 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 16 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 16 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 15 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 15 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 15 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 14 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 14 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 14 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 13 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 13 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 13 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 12 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 12 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 12 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 11 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 11 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 11 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 10 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 10 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 10 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 9 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 9 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 9 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 8 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 8 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 8 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 7 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 7 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 7 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 6 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 6 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 6 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 5 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 5 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 5 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 4 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 4 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 4 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 3 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 3 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 3 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 2 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 2 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 2 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 1 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 1 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 1 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234
+[2J[1;1HCurrent Bank Status
+Account 1: Balance - 0 ILS 0 USD, Account Password - 1234

@@ -1,0 +1,27 @@
+1: New account id is 1 with password 1234 and initial balance 1000 ILS and 0 USD
+1: Currently on a scheduled break. Service will resume within 600 ms
+Bank: commissions of 5 % were charged, bank gained 50 ILS and 0 USD from account 1
+Bank: commissions of 5 % were charged, bank gained 48 ILS and 0 USD from account 1
+Bank: commissions of 1 % were charged, bank gained 10 ILS and 0 USD from account 1
+Bank: commissions of 1 % were charged, bank gained 9 ILS and 0 USD from account 1
+Bank: commissions of 4 % were charged, bank gained 36 ILS and 0 USD from account 1
+Bank: commissions of 1 % were charged, bank gained 9 ILS and 0 USD from account 1
+Bank: commissions of 4 % were charged, bank gained 34 ILS and 0 USD from account 1
+Bank: commissions of 2 % were charged, bank gained 17 ILS and 0 USD from account 1
+Bank: commissions of 4 % were charged, bank gained 32 ILS and 0 USD from account 1
+Bank: commissions of 3 % were charged, bank gained 23 ILS and 0 USD from account 1
+Bank: commissions of 3 % were charged, bank gained 22 ILS and 0 USD from account 1
+Bank: commissions of 4 % were charged, bank gained 29 ILS and 0 USD from account 1
+Bank: commissions of 1 % were charged, bank gained 7 ILS and 0 USD from account 1
+Bank: commissions of 2 % were charged, bank gained 14 ILS and 0 USD from account 1
+Bank: commissions of 1 % were charged, bank gained 7 ILS and 0 USD from account 1
+Bank: commissions of 1 % were charged, bank gained 7 ILS and 0 USD from account 1
+Bank: commissions of 2 % were charged, bank gained 13 ILS and 0 USD from account 1
+Bank: commissions of 5 % were charged, bank gained 32 ILS and 0 USD from account 1
+Bank: commissions of 3 % were charged, bank gained 19 ILS and 0 USD from account 1
+1: Account 1 balance is 582 ILS and 0 USD
+1: Account 1 new balance is 682 ILS and 0 USD after 100 ILS was deposited
+1: Account 1 balance is 682 ILS and 0 USD
+1: Rollback to 1 bank iterations ago was completed successfully
+1: Account 1 balance is 601 ILS and 0 USD
+1: Currently on a scheduled break. Service will resume within 20 ms

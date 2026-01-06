@@ -1,0 +1,9 @@
+2: New account id is 2 with password 2222 and initial balance 500 ILS and 20 USD
+1: New account id is 1 with password 1234 and initial balance 1000 ILS and 10 USD
+1: Account 1 new balance is 1200 ILS and 10 USD after 200 ILS was deposited
+1: Account 1 new balance is 1150 ILS and 10 USD after 50 ILS was withdrawn
+1: Account 1 balance is 1150 ILS and 10 USD
+2: Account 2 balance is 500 ILS and 20 USD
+1: Transfer 50 ILS from account 1 to account 2 new account balance is 1100 ILS and 10 USD new target account balance is 550 ILS and 20 USD
+1: Account 1 new balance is 1000 ILS and 30 USD after 100 ILS was exchanged
+1: Account 1 is now closed. Balance was 1000 ILS and 30 USD

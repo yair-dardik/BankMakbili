@@ -1,0 +1,2 @@
+log|Rollback to 1 bank iterations ago was completed successfully|rollback success logged
+balance_after_rollback|1100|balance after rollback should be 1100 ILS (no commissions expected)

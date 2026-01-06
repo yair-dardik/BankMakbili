@@ -1,0 +1,1 @@
+stdout_count|Current Bank Status|2|status printed at least twice

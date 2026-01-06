@@ -1,0 +1,7 @@
+log|New account id is 1|account 1 opened
+log|New account id is 2|account 2 opened
+log|after 200 ILS was deposited|deposit logged
+log|after 50 ILS was withdrawn|withdraw logged
+log|: Transfer 50 ILS from account 1 to account 2|transfer logged
+log|was exchanged|exchange logged
+log|: Account 1 is now closed|close account logged
