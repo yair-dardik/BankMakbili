@@ -25,6 +25,17 @@ Bank::Bank() : bankIsRunning(true) { // -1 indicates uninitialized
     pthread_create(&maintenanceThread, NULL, maintenance_wrapper, NULL);
 }
 
+Bank::~Bank() {
+    // Wait for maintenance thread to finish
+    pthread_join(maintenanceThread, NULL);
+
+    // Cleanup Resources
+    pthread_mutex_destroy(&historyLock);
+    
+    // The accounts map and atmStatus vector are destroyed automatically 
+    // after this body finishes, which is now safe.
+}
+
 Bank& Bank::getInstance() {
     static Bank instance;
     return instance;

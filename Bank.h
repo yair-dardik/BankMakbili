@@ -28,6 +28,7 @@ private:
     
 
     Bank(); 
+    ~Bank();
     Account* getAccount(int id, int atmID);
 
 public:
