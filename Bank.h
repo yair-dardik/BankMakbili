@@ -10,7 +10,8 @@
 
 class Bank {
 private:
-
+    bool bankIsRunning;
+    pthread_mutex_t runningLock;
 
     std::map<int, Account*> accounts;
     RWLock bankLock; 
@@ -28,14 +29,13 @@ private:
     
 
     Bank(); 
-    ~Bank();
     Account* getAccount(int id, int atmID);
 
 public:
-    bool bankIsRunning;
     static Bank& getInstance();
     void initWrappers(int numATMs);
     void runMaintenance();
+    void bankShutdown();
     
     // ATM Commands
     void createAccount(int id, int pass, int ils, int usd, int atmID);

@@ -82,7 +82,7 @@ int main(int argc, char* argv[]) {
     }
 
     // 8. Finalization
-    Bank::getInstance().bankIsRunning = false; // Signal maintenance thread to stop
+    Bank::getInstance().bankShutdown(); // Signal maintenance thread to stop
     
     return 0;
 }

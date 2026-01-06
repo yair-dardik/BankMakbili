@@ -21,24 +21,26 @@ void Bank::initWrappers(int numATMs) {
 
 Bank::Bank() : bankIsRunning(true) { // -1 indicates uninitialized
     pthread_mutex_init(&historyLock, NULL);
+    pthread_mutex_init(&runningLock, NULL);
     // Start the maintenance thread immediately
     pthread_create(&maintenanceThread, NULL, maintenance_wrapper, NULL);
 }
 
-Bank::~Bank() {
-    // Wait for maintenance thread to finish
-    pthread_join(maintenanceThread, NULL);
 
-    // Cleanup Resources
-    pthread_mutex_destroy(&historyLock);
-    
-    // The accounts map and atmStatus vector are destroyed automatically 
-    // after this body finishes, which is now safe.
-}
 
 Bank& Bank::getInstance() {
     static Bank instance;
     return instance;
+}
+
+void Bank::bankShutdown() {
+    pthread_mutex_lock(&runningLock);
+    bankIsRunning = false;
+    pthread_mutex_unlock(&runningLock);
+
+    // Wait for maintenance thread to finish (it won't in current design)
+    pthread_join(maintenanceThread, NULL);
+
 }
 
 // Helper function: Caller MUST hold bankLock (Read or Write)
@@ -59,11 +61,16 @@ Account* Bank::getAccount(int id, int atmID) {
 // ------------------------------------------------------------
 void Bank::runMaintenance() { //TODO need to change order of maintnance
     int counter = 0;
-    while(bankIsRunning) {
+    while(true) {
         // Sleep for 10 milliseconds (10,000 microseconds)
         // This sets the base rhythm for Printing and Snapshots [cite: 240]
         usleep(10000); 
-        
+        //Check if we should keep running (Protected Read)
+        pthread_mutex_lock(&runningLock);
+        bool running = bankIsRunning;
+        pthread_mutex_unlock(&runningLock);
+
+        if (!running) break; // Exit loop safely
         
 
         // Lock Bank for Reading during snapshoot and printing
