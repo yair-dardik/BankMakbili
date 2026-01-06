@@ -578,7 +578,7 @@ void * investment_wrapper(void* arg) {
     int atmID = args->atmID;
 
     // Delete the struct
-    printf("DEBUG: Wrapper T%lu DELETING ptr %p\n", pthread_self(), (void*)args);
+    //printf("DEBUG: Wrapper T%lu DELETING ptr %p\n", pthread_self(), (void*)args);
     delete args;
 
     Bank& bank = Bank::getInstance();
@@ -600,12 +600,12 @@ void Bank::invest(int id, int pass, int amount, bool isDollar, int time, int atm
     args->time = time;
     args->atmID = atmID;
 
-    printf("DEBUG: Invest  T%lu CREATED ptr %p\n", pthread_self(), (void*)args);
+    //printf("DEBUG: Invest  T%lu CREATED ptr %p\n", pthread_self(), (void*)args);
     pthread_create(&investmentThread, NULL, investment_wrapper, (void*)args);
     
     // This tells the OS: "I won't call join(), please clean up this thread when it's done."
     pthread_detach(investmentThread);
-    printf("DEBUG: Invest  T%lu RETURNING (No Delete)\n", pthread_self());
+    //printf("DEBUG: Invest  T%lu RETURNING (No Delete)\n", pthread_self());
     
 }
 
