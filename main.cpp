@@ -3,6 +3,7 @@
 #include <pthread.h>
 #include <cstdlib>
 #include "Bank.h"
+#include <cstring> // For std::strlen
 #include "VIPManager.h"
 #include "log.h"
 #include "ATM.h"
@@ -28,7 +29,18 @@ void* vip_routine(void* arg) {
 
 int main(int argc, char* argv[]) {
     
-
+    // 0. Basic Argument Check
+    if (argc < 3) {
+        std::cerr << "Bank error: illegal arguments" << std::endl;
+        return 1;
+    }
+    // check if argv[1] is a positive integer
+    for (size_t i = 0; i < std::strlen(argv[1]); ++i) {
+        if (!std::isdigit(argv[1][i])) {
+            std::cerr << "Bank error: illegal arguments" << std::endl;
+            return 1;
+        }
+    }
     // 1. Parse Number of VIP Threads
     int numVIPThreads = std::atoi(argv[1]);
 
