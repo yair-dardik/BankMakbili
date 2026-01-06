@@ -3,14 +3,33 @@
 #include <pthread.h>
 #include <cstdlib>
 #include "Bank.h"
+#include "VIPManager.h"
 #include "ATM.h"
+
+// The routine that VIP threads will run
+void* vip_routine(void* arg) {
+    while (true) {
+        // 1. Fetch next high-priority command
+        // This blocks if the queue is empty
+        VIPCommand cmd = VIPManager::getInstance().getVIPCommand();
+
+        // 2. Check for "Poison Pill" (Shutdown signal)
+        if (cmd.atmID == -1) {
+            break;
+        }
+
+        // 3. Execute the command immediately (No delays)
+        // We reuse the static parsing logic from the ATM class
+        ATM::parseAndExecute(cmd.atmID, cmd.line);
+    }
+    return NULL;
+}
 
 int main(int argc, char* argv[]) {
     
 
     // 1. Parse Number of VIP Threads
     int numVIPThreads = std::atoi(argv[1]);
-    (void)numVIPThreads; // Suppress unused variable warning if not used here
 
     // 2. Determine Number of ATMs and Initialize Bank
     // The number of ATMs is the number of input files provided.
@@ -19,9 +38,19 @@ int main(int argc, char* argv[]) {
     // Initialize the Bank's internal ATM tracking structures before launching threads 
     Bank::getInstance().initWrappers(numATMs);
 
-    // 4. Create ATM Threads [cite: 36, 218]
+    // 4. Create VIP Threads
+    // These start running immediately but will wait (sleep) 
+    // inside getVIPCommand() until tasks are added.
+    std::vector<pthread_t> vipThreads(numVIPThreads);
+    for (int i = 0; i < numVIPThreads; ++i) {
+        if (pthread_create(&vipThreads[i], NULL, vip_routine, NULL) != 0) {
+            perror("Bank error: pthread_create failed");
+            return 1;
+        }
+    }
+
+    // 5. Create ATM Threads 
     std::vector<pthread_t> atmThreads(numATMs);
-    
     for (int i = 0; i < numATMs; ++i) {
         // Prepare arguments for the ATM thread
         ATMArgs* args = new ATMArgs();
@@ -37,13 +66,22 @@ int main(int argc, char* argv[]) {
         }
     }
 
-    // 5. Wait for ATMs to Finish [cite: 40]
-    // The main thread waits for all ATM threads to complete their input files or be closed[cite: 41, 147].
+    // 6. Wait for ATMs to Finish 
+    // The main thread waits for all ATM threads to complete their input files or be closed.
     for (int i = 0; i < numATMs; ++i) {
         pthread_join(atmThreads[i], NULL);
     }
 
-    // 6. Finalization
+    // 7. Shutdown VIP Threads
+    // Now that all ATMs are finished, no new VIP commands will be generated.
+    // We signal the VIP manager to wake up all VIP threads and tell them to exit.
+    VIPManager::getInstance().quit();
+
+    for (int i = 0; i < numVIPThreads; ++i) {
+        pthread_join(vipThreads[i], NULL);
+    }
+
+    // 8. Finalization
     Bank::getInstance().bankIsRunning = false; // Signal maintenance thread to stop
     
     return 0;

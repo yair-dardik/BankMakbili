@@ -1,6 +1,7 @@
 #include "ATM.h"
 #include "Bank.h"
 #include "log.h"
+#include "VIPManager.h"
 #include <fstream>
 #include <sstream>
 #include <iostream>
@@ -94,6 +95,7 @@ void ATM::parseAndExecute(int atmID, const std::string& line) {
     }
 }
 
+
 void* ATM::atmRoutine(void* arg) {
     // 1. Recover Arguments
     ATMArgs* args = (ATMArgs*)arg;
@@ -121,13 +123,25 @@ void* ATM::atmRoutine(void* arg) {
                                      " closed " + std::to_string(myID) + " successfully");
             break; // Exit loop
         }
+        // 4. check for VIP Command
+        size_t vipPos = line.find("VIP=");
+        if (vipPos != std::string::npos) {
+            // Extract X (Priority)
+            int priority = std::stoi(line.substr(vipPos + 4));
+            // Extract clean command (everything before " VIP=")
+            std::string cleanCmd = line.substr(0, vipPos);
+            // Hand over to VIPManager 
+            VIPManager::getInstance().addVIPCommand(priority, myID, cleanCmd);
+            // Move to next line (ATM does not execute this)
+            continue; 
+        }
 
-        // 4. Execute Command
+        // 5. Execute Command if not VIP
         parseAndExecute(myID, line);
         
     }
 
-    // 5. Cleanup
+    // 6. Cleanup
     infile.close();
     return NULL;
 }
